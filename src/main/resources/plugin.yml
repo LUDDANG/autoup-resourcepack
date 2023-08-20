@@ -1,0 +1,9 @@
+name: AutoUpResourcePack
+version: 1.0
+main: kr.enak.plugins.autoupresourcepack.AutoUpResourcePack
+api-version: '1.16'
+load: STARTUP
+libraries:
+  - org.apache.httpcomponents:httpclient:4.5.14
+commands:
+  autoup:
